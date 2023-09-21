@@ -1686,3 +1686,29 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+/*Skill Section*/
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin: 5px;
+    transition: transform 0.4s ease-in-out; /* Duração da animação */
+}
+
+.skills-list li img {
+    width: 140px; /* Tamanho original das badges */
+    height: 40px; /* Tamanho original das badges */
+}
+
+.skills-list li:hover img {
+    transform: scale(1.2); /* Aumenta em 20% quando passar o mouse */
+}
+
+
