@@ -1190,7 +1190,26 @@ input, select, textarea {
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
+		} 
+		
+		/*#bg:after { WORK IN PROGRESS	
+			background-image: url("../../images/bg1.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
+			animation: moveBackground 20s linear infinite;
 		}
+		
+		@keyframes moveBackground {
+			0% {
+				background-position: center top;
+			}
+			100% {
+				background-position: center bottom;
+			}
+		} */
+		
 
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
